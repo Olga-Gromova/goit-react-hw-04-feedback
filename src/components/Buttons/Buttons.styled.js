@@ -30,6 +30,12 @@ export const Btn = styled.button`
   -webkit-user-select: none;
   touch-action: manipulation;
 
+  &:hover,
+  &:focus {
+    color: #00008B;
+    text-shadow: #00BFFF 0px 5px 20px;
+  }
+
   &::first-letter {
     text-transform: uppercase;
   }
@@ -40,8 +46,7 @@ export const Btn = styled.button`
   }
 
   &:first-child:hover,
-  &:first-child:focus,
-  &:first-child:active {
+  &:first-child:focus {
     background-color: #27a258;
     cursor: pointer;
     box-shadow: #27a258 0px 5px 15px;
@@ -52,8 +57,7 @@ export const Btn = styled.button`
     border: 2px solid #ffff00;
   }
   &:nth-child(2):hover,
-  &:nth-child(2):focus,
-  &:nth-child(2):active {
+  &:nth-child(2):focus {
     background-color: #ffea00;
     cursor: pointer;
     box-shadow: #ffea00 0px 5px 15px;
@@ -65,10 +69,9 @@ export const Btn = styled.button`
   }
 
   &:last-child:hover,
-  &:last-child:focus,
-  &:last-child:active {
-    background-color: #972c28;
+  &:last-child:focus {
+    background-color: #ff3333;
     cursor: pointer;
-    box-shadow: #972c28 0px 5px 15px;
+    box-shadow: #ff3333 0px 5px 15px;
   }
 `;
