@@ -32,8 +32,8 @@ export const Btn = styled.button`
 
   &:hover,
   &:focus {
-    color: #00008B;
-    text-shadow: #00BFFF 0px 5px 20px;
+    color: #00008b;
+    text-shadow: #00bfff 0px 5px 20px;
   }
 
   &::first-letter {
